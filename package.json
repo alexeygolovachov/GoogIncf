@@ -1,0 +1,19 @@
+{
+  "name": "newproject1",
+  "version": "1.0.0",
+  "description": "goodinc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less-build":"node-less-chokidar -w ./less/main.less -o --usepoling --polling-interval 1000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "alexeygolovachov@gmail.com"
+  },
+  "keywords": [
+    "pr1"
+  ],
+  "author": "alex",
+  "license": "MIT"
+}
